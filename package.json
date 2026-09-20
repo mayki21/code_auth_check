@@ -1,0 +1,28 @@
+{
+  "name": "code_auth_check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayki21/code_auth_check.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayki21/code_auth_check/issues"
+  },
+  "homepage": "https://github.com/mayki21/code_auth_check#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
