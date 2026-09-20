@@ -14,6 +14,7 @@ app.post('/webhook', (req, res) => {
   }
 
   if (apiKey !== '123456') {
+    console.log("API KEY IS MISSING......!!!!!!")
     return res.status(401).json({
       message: 'Invalid x-api-key'
     })
